@@ -55,7 +55,7 @@ https://youtu.be/ihUTc0tN9rY?si=IWaE20GcxCAhbUJt
 ```bash
 git clone https://github.com/usuario/Projeto-Brennand-Digital.git
 
-
+````
 ## 👥 Nossa Equipe
 
 - David Alves
