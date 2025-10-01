@@ -21,7 +21,10 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
   https://www.figma.com/design/5gw7g03K3NlFqpk4N44rt2/Brennand?node-id=0-1&p=f&t=jmqIZNbSJJSAi7aO-0  
 
 - **Trello:**  
-  https://trello.com/b/qq7pibmx/projetos-3  
+  https://trello.com/b/qq7pibmx/projetos-3
+
+- ### 🎥 Screencast
+- https://youtu.be/aLnS4tEiyCQ?si=iAgWqq4Dm9YmjAV7
 
 ---
 
@@ -29,12 +32,17 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
 
 ### ✅ Escopo da Segunda Entrega
 - Desenvolvimento do **protótipo funcional em Java**.  
-- Implementação das primeiras **funcionalidades de cadastro e listagem de visitantes**.  
+- Implementação das 2 histórias:
+  **funcionalidades de cadastro** dentro do epico de comunicação no trello
+  **criação de avisos** dentro do epico de comunicação no trello.  
 - Documentação das instruções de execução.  
-- Criação de um **screencast** mostrando o funcionamento do sistema.  
+- Criação de um **screencast** mostrando o funcionamento do sistema.
+
+
+###
 
 ### 🎥 Screencast
-https://youtu.be/aLnS4tEiyCQ  
+https://youtu.be/ihUTc0tN9rY?si=IWaE20GcxCAhbUJt  
 
 ### 🛠 Tecnologias Utilizadas
 - <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />  
