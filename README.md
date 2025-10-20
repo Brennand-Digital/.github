@@ -20,6 +20,15 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
 - **Figma:**  
   https://www.figma.com/design/5gw7g03K3NlFqpk4N44rt2/Brennand?node-id=0-1&p=f&t=jmqIZNbSJJSAi7aO-0  
 
+  Histórias adicionadas:
+  1°: Como usuário quero visualizar a home do site
+  <img width="643" height="487" alt="image" src="https://github.com/user-attachments/assets/f6692a1e-08f2-4da1-ae29-ca0894771688" />
+  
+  2°: Como usuário quero ver as exposições do parque das esculturas
+  <img width="250" height="498" alt="image" src="https://github.com/user-attachments/assets/750bfa50-fad1-4ef3-8470-9f48e9ea22e5" />
+
+
+
 - **Trello:**  
   https://trello.com/b/qq7pibmx/projetos-3
 
