@@ -25,7 +25,7 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
   <img width="643" height="487" alt="image" src="https://github.com/user-attachments/assets/f6692a1e-08f2-4da1-ae29-ca0894771688" />
   
   2°: Como usuário quero ver as exposições do parque das esculturas
-  <img width="500" height="498" alt="image" src="https://github.com/user-attachments/assets/750bfa50-fad1-4ef3-8470-9f48e9ea22e5" />
+ <img width="250" height="498" alt="image" src="https://github.com/user-attachments/assets/690e2420-f441-4caf-b084-c8ebd6cd15b9" />
 
 
 
