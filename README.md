@@ -25,10 +25,11 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
   <img width="643" height="487" alt="image" src="https://github.com/user-attachments/assets/f6692a1e-08f2-4da1-ae29-ca0894771688" />
   
   2°: Como usuário quero ver as exposições do parque das esculturas
-  <img width="250" height="498" alt="image" src="https://github.com/user-attachments/assets/690e2420-f441-4caf-b084-c8ebd6cd15b9" />
+ <img width="250" height="498" alt="image" src="https://github.com/user-attachments/assets/690e2420-f441-4caf-b084-c8ebd6cd15b9" />
 
   3°: Como usuário gostaria de fazer login
-  <img width="275" height="491" alt="image" src="https://github.com/user-attachments/assets/d83199d9-2551-4e00-b317-c77df906ccb7" />
+  
+ <img width="275" height="491" alt="image" src="https://github.com/user-attachments/assets/d83199d9-2551-4e00-b317-c77df906ccb7" />
 
 
 
