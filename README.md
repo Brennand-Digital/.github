@@ -48,12 +48,13 @@ A aplicação tem como propósito fornecer uma solução simples, mas extensíve
 - Desenvolvimento do **protótipo funcional em Java**.  
 - Implementação das 2 histórias:
   **funcionalidades de cadastro** dentro do epico de comunicação no trello
-  **criação de avisos** dentro do epico de comunicação no trello.  
+  **Post/Get/Put/Delete/Patch de avisos** dentro do epico de comunicação no trello.  
 - Documentação das instruções de execução.  
 - Criação de um **screencast** mostrando o funcionamento do sistema.
 
 
-###
+- **Trello:**  
+  https://trello.com/b/qq7pibmx/projetos-3
 
 ### 🎥 Screencast
 https://youtu.be/ihUTc0tN9rY?si=IWaE20GcxCAhbUJt  
@@ -65,11 +66,49 @@ https://youtu.be/ihUTc0tN9rY?si=IWaE20GcxCAhbUJt
 
 ---
 
+
+# 🚀 Entrega 3
+
+### ✅ Escopo da Terceira Entrega
+- Desenvolvimento do **protótipo funcional em Java**.  
+- Implementação de mais 2 histórias:
+  **funcionalidades de Login** dentro do epico de comunicação no trello
+  **Segurança de Senha e Busca de Usuário** dentro do epico de comunicação no trello.
+- Criação de Testes Automatizados  
+- Documentação das instruções de execução.  
+- Criação de um **screencast** mostrando o funcionamento do sistema.
+
+
+
+- **Trello:**  
+  https://trello.com/b/qq7pibmx/projetos-3
+  
+### 🎥 Screencast
+https://youtu.be/uiHuE2oqbjA
+
 # 👨‍💻 Como Executar o Projeto
+
+Para rodar este projeto localmente, siga os passos abaixo.
+
+## 1. Pré-requisitos
+
+Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente:
+* Java Development Kit (JDK) 17 ou superior: Necessário para compilar e executar o Spring Boot.
+* Maven ou Gradle (dependendo de como o projeto está configurado para o build). Assumiremos Maven para os comandos.
+* Git: Para clonar o repositório.
+* Postman ou cURL: Para testar os endpoints da API após a execução.
+
+## 2. Clonagem do Repositório
+
+Abra o terminal e clone o projeto. Use a URL do seu repositório:
+
 ```bash
-git clone https://github.com/usuario/Projeto-Brennand-Digital.git
+
+git clone [https://github.com/usuario/Projeto-Brennand-Digital.git](https://github.com/usuario/Projeto-Brennand-Digital.git)
+cd Projeto-Brennand-Digital
 
 ````
+
 ## 👥 Nossa Equipe
 
 - David Alves
