@@ -75,7 +75,6 @@ https://youtu.be/ihUTc0tN9rY?si=IWaE20GcxCAhbUJt
   **funcionalidades de Login** dentro do epico de comunicação no trello
   **Segurança de Senha e Busca de Usuário** dentro do epico de comunicação no trello.
 - Criação de Testes Automatizados  
-- Documentação das instruções de execução.  
 - Criação de um **screencast** mostrando o funcionamento do sistema.
 
 
