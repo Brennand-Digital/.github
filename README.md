@@ -93,7 +93,7 @@ https://youtu.be/uiHuE2oqbjA
 ### ✅ Escopo da Terceira Entrega
 - Desenvolvimento do **protótipo funcional em Java**.  
 - Implementação de mais 3 histórias:
-- **Delete de Avisos pelo Id** 
+  **Delete de Avisos pelo Id** 
   **Get de Avisos pelo Id** 
   **Get/Put/Delete/ de Usuário pelo Id**
 - Criação de Testes Automatizados  
@@ -106,6 +106,8 @@ https://youtu.be/uiHuE2oqbjA
   
 ### 🎥 Screencast
 https://youtu.be/uiHuE2oqbjA
+
+---
 
 # 👨‍💻 Como Executar o Projeto
 
