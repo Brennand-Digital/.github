@@ -116,20 +116,19 @@ Para rodar este projeto localmente, siga os passos abaixo.
 Para rodar o projeto, você precisará ter as seguintes ferramentas instaladas em sua máquina. Seja bem descritivo e verifique se as versões mínimas são atendidas.
 
 Ferramenta
-Versão Mínima
-Por que é Necessário?
-Java Development Kit (JDK)
-17
+Java Development Kit (JDK) 17
 O projeto é construído em Java e requer o ambiente de desenvolvimento e a máquina virtual (JVM) para compilar e executar.
-Apache Maven
-3.6+
+
+Apache Maven v3.6+
+
 Gerenciador de dependências e ferramenta de build do projeto. Responsável por baixar bibliotecas e empacotar a aplicação.
-Git
-2.0+
+
+Git v2.0+
 Sistema de controle de versão para clonar o repositório.
-PostgreSQL
-10+
+
+PostgreSQL v10+
 O projeto utiliza este banco de dados relacional para persistência de dados e migrações Flyway.
+
 Cliente API
 Postman, Insomnia ou cURL
 Necessário para testar os endpoints da API após a execução.
@@ -143,11 +142,7 @@ O projeto espera se conectar a uma instância do PostgreSQL.
 
 Abra o terminal do seu PostgreSQL (ou use uma ferramenta como pgAdmin) e execute o seguinte comando SQL para criar o banco de dados:
 
-SQL
-
-
 CREATE DATABASE brennand_db;
-
 
 2.2. Configuração do Projeto
 
@@ -158,9 +153,6 @@ Localize o arquivo: backend/src/main/resources/application.properties
 
 2.
 Edite as seguintes linhas para corresponderem às suas credenciais locais do PostgreSQL.
-
-Plain Text
-
 
 # Configuração do Banco de Dados PostgreSQL
 spring.datasource.url=jdbc:postgresql://localhost:5432/brennand_db
@@ -182,14 +174,14 @@ Siga os comandos no terminal para clonar, compilar e executar a aplicação.
 
 Bash
 
-
 # Comando para clonar o repositório
 git clone https://github.com/Brennand-Digital/backend
+
 # Navegue para o diretório raiz do projeto
 cd backend
+
 # Navegue para o subdiretório do módulo principal (onde está o pom.xml )
 cd backend
-
 
 3.2. Compilação e Execução
 
@@ -224,18 +216,7 @@ URL: http://localhost:8080/auth/login
 •
 Corpo (Body ) - JSON:
 
-
-
-## 2. Clonagem do Repositório
-
-Abra o terminal e clone o projeto. Use a URL do seu repositório:
-
-```bash
-
-git clone [https://github.com/usuario/Projeto-Brennand-Digital.git](https://github.com/usuario/Projeto-Brennand-Digital.git)
-cd Projeto-Brennand-Digital
-
-````
+---
 
 ## 👥 Nossa Equipe
 
