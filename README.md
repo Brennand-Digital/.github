@@ -111,115 +111,115 @@ https://youtu.be/uiHuE2oqbjA
 
 ---
 
-# 👨‍💻 Como Executar o Projeto
+✔ Pré-requisitos
 
-Para rodar este projeto localmente, siga os passos abaixo.
+Antes de iniciar, instale as ferramentas:
 
-## 1. Pré-requisitos
-
-Para rodar o projeto, você precisará ter as seguintes ferramentas instaladas em sua máquina. Seja bem descritivo e verifique se as versões mínimas são atendidas.
-
-Ferramenta
-Java Development Kit (JDK) 17
-O projeto é construído em Java e requer o ambiente de desenvolvimento e a máquina virtual (JVM) para compilar e executar.
-
-Apache Maven v3.6+
-
-Gerenciador de dependências e ferramenta de build do projeto. Responsável por baixar bibliotecas e empacotar a aplicação.
-
-Git v2.0+
-Sistema de controle de versão para clonar o repositório.
-
-PostgreSQL v10+
-O projeto utiliza este banco de dados relacional para persistência de dados e migrações Flyway.
-
-Cliente API
-Postman, Insomnia ou cURL
-Necessário para testar os endpoints da API após a execução.
-
-
-2. Configuração do Banco de Dados PostgreSQL
-
-O projeto espera se conectar a uma instância do PostgreSQL.
-
-2.1. Criação do Banco de Dados
-
-Abra o terminal do seu PostgreSQL (ou use uma ferramenta como pgAdmin) e execute o seguinte comando SQL para criar o banco de dados:
-
+Ferramenta	Versão mínima
+JDK	17
+Maven	3.6+
+PostgreSQL	10+
+Git	2.0+
+Cliente API	Postman, Insomnia ou cURL
+🗄 Configuração do Banco de Dados
+1. Criando o banco
 CREATE DATABASE brennand_db;
 
-2.2. Configuração do Projeto
+2. Configurando o application.properties
 
-O projeto utiliza o arquivo application.properties para as configurações de conexão.
+Edite:
 
-1.
-Localize o arquivo: backend/src/main/resources/application.properties
+backend/src/main/resources/application.properties
 
-2.
-Edite as seguintes linhas para corresponderem às suas credenciais locais do PostgreSQL.
-
-# Configuração do Banco de Dados PostgreSQL
 spring.datasource.url=jdbc:postgresql://localhost:5432/brennand_db
-spring.datasource.username=seu_usuario_postgres
-spring.datasource.password=sua_senha_postgres
+spring.datasource.username=SEU_USUARIO
+spring.datasource.password=SUA_SENHA
 
-# Configuração do Flyway (Migrações de Banco de Dados)
 spring.flyway.enabled=true
 spring.flyway.locations=classpath:db/migration
 
-
-Atenção: Substitua seu_usuario_postgres e sua_senha_postgres pelas credenciais que você utiliza para acessar o PostgreSQL.
-
-3. Clonagem e Execução do Projeto
-
-Siga os comandos no terminal para clonar, compilar e executar a aplicação.
-
-3.1. Clonagem do Repositório
-
-Bash
-
-# Comando para clonar o repositório
+📥 Clonagem e Execução
+1. Clonar o repositório
 git clone https://github.com/Brennand-Digital/backend
-
-# Navegue para o diretório raiz do projeto
+cd backend
 cd backend
 
-# Navegue para o subdiretório do módulo principal (onde está o pom.xml )
-cd backend
-
-3.2. Compilação e Execução
-
-Utilize o Maven para compilar o projeto e rodar a aplicação Spring Boot.
-
-Bash
-
-
-# 1. Compilar o projeto e baixar as dependências
-# O comando 'clean install' garante que o projeto será reconstruído do zero
+2. Build + Run
 mvn clean install
-
-# 2. Executar a aplicação Spring Boot
-# O comando 'spring-boot:run' inicia o servidor embutido (Tomcat)
 mvn spring-boot:run
 
 
-O servidor será iniciado na porta padrão (geralmente 8080). Você verá uma mensagem no console indicando que a aplicação Spring Boot foi iniciada com sucesso.
+Servidor disponível em:
 
-4. Testando a API
+http://localhost:8080
 
-Com o servidor rodando, você pode testar as funcionalidades (endpoints) usando o Postman, Insomnia ou cURL.
+🔐 Variáveis de Ambiente (Opcional)
 
-Exemplo de Teste (Login):
+Se quiser usar .env + Spring dotenv:
 
-•
-Método: POST
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=brennand_db
+DB_USER=postgres
+DB_PASS=postgres
 
-•
-URL: http://localhost:8080/auth/login
+🧪 Testando a API
+Exemplo – Login
 
-•
-Corpo (Body ) - JSON:
+POST http://localhost:8080/auth/login
 
+{
+  "email": "seu_email@example.com",
+  "password": "sua_senha"
+}
+
+📁 Estrutura de Pastas
+backend/
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/com/brennand/...
+ │   │   ├── resources/
+ │   │   │   ├── application.properties
+ │   │   │   └── db/migration/
+ │   └── test/
+ ├── pom.xml
+ └── README.md
+
+🌐 Rotas da API (Exemplo)
+🔒 Auth
+Método	Rota	Descrição
+POST	/auth/login	Autenticação
+POST	/auth/register	Criar usuário
+🗿 Obras
+Método	Rota	Descrição
+GET	/obras	Lista todas
+GET	/obras/{id}	Detalhes
+POST	/obras	Criar obra
+PUT	/obras/{id}	Atualizar
+DELETE	/obras/{id}	Excluir
+
+(Posso gerar as rotas completas se você quiser.)
+
+🤝 Como Contribuir
+
+Faça um fork do repositório
+
+Crie uma branch:
+
+git checkout -b feature/minha-feature
+
+
+Commit:
+
+git commit -m "Minha nova feature"
+
+
+Push:
+
+git push origin feature/minha-feature
+
+
+Abra um Pull Request
 ---
 
 ## 👥 Nossa Equipe
