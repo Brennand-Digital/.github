@@ -111,115 +111,57 @@ https://youtu.be/uiHuE2oqbjA
 
 ---
 
-✔ Pré-requisitos
+## ✔ Pré-requisitos
 
-Antes de iniciar, instale as ferramentas:
+-   JDK 17\
+-   Maven 3.6+\
+-   PostgreSQL 10+\
+-   Git 2.0+\
+-   Postman/Insomnia/cURL
 
-Ferramenta	Versão mínima
-JDK	17
-Maven	3.6+
-PostgreSQL	10+
-Git	2.0+
-Cliente API	Postman, Insomnia ou cURL
-🗄 Configuração do Banco de Dados
-1. Criando o banco
+## 🗄 Configuração do Banco de Dados
+
+``` sql
 CREATE DATABASE brennand_db;
+```
 
-2. Configurando o application.properties
+Edite `application.properties` com suas credenciais.
 
-Edite:
+## 📥 Clonagem e Execução
 
-backend/src/main/resources/application.properties
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/brennand_db
-spring.datasource.username=SEU_USUARIO
-spring.datasource.password=SUA_SENHA
-
-spring.flyway.enabled=true
-spring.flyway.locations=classpath:db/migration
-
-📥 Clonagem e Execução
-1. Clonar o repositório
+``` bash
 git clone https://github.com/Brennand-Digital/backend
-cd backend
-cd backend
+cd backend/backend
 
-2. Build + Run
 mvn clean install
 mvn spring-boot:run
+```
 
+## 🧪 Testando a API no Postman
 
-Servidor disponível em:
+**POST** `http://localhost:8080/auth/login`
 
-http://localhost:8080
-
-🔐 Variáveis de Ambiente (Opcional)
-
-Se quiser usar .env + Spring dotenv:
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=brennand_db
-DB_USER=postgres
-DB_PASS=postgres
-
-🧪 Testando a API
-Exemplo – Login
-
-POST http://localhost:8080/auth/login
-
+``` json
 {
   "email": "seu_email@example.com",
   "password": "sua_senha"
 }
+```
 
-📁 Estrutura de Pastas
-backend/
- ├── src/
- │   ├── main/
- │   │   ├── java/com/brennand/...
- │   │   ├── resources/
- │   │   │   ├── application.properties
- │   │   │   └── db/migration/
- │   └── test/
- ├── pom.xml
- └── README.md
+## 📁 Estrutura
 
-🌐 Rotas da API (Exemplo)
-🔒 Auth
-Método	Rota	Descrição
-POST	/auth/login	Autenticação
-POST	/auth/register	Criar usuário
-🗿 Obras
-Método	Rota	Descrição
-GET	/obras	Lista todas
-GET	/obras/{id}	Detalhes
-POST	/obras	Criar obra
-PUT	/obras/{id}	Atualizar
-DELETE	/obras/{id}	Excluir
+    backend/
+     ├── src/
+     ├── pom.xml
+     └── README.md
 
-(Posso gerar as rotas completas se você quiser.)
+## 🤝 Como Contribuir
 
-🤝 Como Contribuir
-
-Faça um fork do repositório
-
-Crie uma branch:
-
-git checkout -b feature/minha-feature
-
-
-Commit:
-
-git commit -m "Minha nova feature"
-
-
-Push:
-
-git push origin feature/minha-feature
-
-
-Abra um Pull Request
+1.  Fork\
+2.  Criar branch\
+3.  Commit\
+4.  Push\
+5.  Pull Request
 ---
 
 ## 👥 Nossa Equipe
